@@ -12,6 +12,6 @@
     }
   ],
   "version": "1.0",
-  "permissions": ["activeTab"],
+  "description": "no-ad!",
   "manifest_version": 2
 }
