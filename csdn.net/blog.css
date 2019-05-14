@@ -5,6 +5,7 @@ main>div[id], /* 回帖上的广告 */
 #asideFooter, /* 联系我们 */
 .hide-article-box, /* 阅读更多 */
 .recommend-fixed-box>div[id], /* 右侧推荐文章内插入的广告 */
+#adContent, /* 右下角 vip 免广告按钮 */
 empty {
   display: none;
 }
