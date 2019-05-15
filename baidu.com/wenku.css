@@ -1,0 +1,11 @@
+.banner-ad, /* 每页之间的广告 */
+.wkfc-wrap, /* 阅读结束下方的广告 */
+.fc-container, /* 未知情况能触发的广告 */
+.lastcell-dialog, /* 右下角悬浮广告 */
+#banurl, /* banner 上的广告 */
+.union-ad-bottom, /* 评论上方的广告 */
+#reply-list-tpl~div, /* 评论下方的广告 */
+#guess-like-doc, /* 你猜我喜不喜欢 */
+empty {
+  display: none!important;
+}
