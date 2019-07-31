@@ -2,6 +2,10 @@
   "name": "no-ad",
   "content_scripts": [
     {
+      "matches": ["*://blog.51cto.com/*"],
+      "css": ["51cto.com/blog.css"]
+    },
+    {
       "matches": ["*://wenku.baidu.com/*"],
       "js": ["baidu.com/wenku.js"],
       "css": ["baidu.com/wenku.css"]

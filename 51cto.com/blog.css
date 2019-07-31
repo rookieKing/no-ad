@@ -1,0 +1,8 @@
+#Mask, /* 偶尔的弹窗 */
+#Mask~div, /* 偶尔的弹窗 */
+.zhiCustomBtn, /* 在线客服 */
+.group_img_box, /* 大礼包 */
+empty
+{
+  display: none;
+}
