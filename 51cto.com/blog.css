@@ -3,7 +3,6 @@
 .zhiCustomBtn, /* 在线客服 */
 .group_img_box, /* 大礼包 */
 #topbanner14, /* 去掉顶部广告 */
-empty
-{
+empty {
   display: none;
 }
