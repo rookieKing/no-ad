@@ -1,4 +1,5 @@
 console.log('--- index');
 window.addEventListener('load', () => {
-  document.querySelector('#asideFooter').style.display = 'none';
+  let ad = document.querySelector('#asideFooter')
+  ad && (ad.style.display = 'none');
 });
