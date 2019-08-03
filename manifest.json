@@ -2,6 +2,10 @@
   "name": "no-ad",
   "content_scripts": [
     {
+      "matches": ["*://blog.popkx.com/*"],
+      "js": ["popkx.com/blog.js"]
+    },
+    {
       "matches": ["*://www.runoob.com/*"],
       "css": ["runoob.com/www.css"]
     },
