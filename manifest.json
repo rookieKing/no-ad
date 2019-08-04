@@ -2,6 +2,10 @@
   "name": "no-ad",
   "content_scripts": [
     {
+      "matches": ["*://www.jb51.net/softs/*"],
+      "css": ["jb51.net/www.softs.css"]
+    },
+    {
       "matches": ["*://blog.popkx.com/*"],
       "js": ["popkx.com/blog.js"]
     },

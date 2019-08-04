@@ -1,0 +1,12 @@
+.header>.wrap, /* 头部广告一 */
+#mainBody>.tonglan, /* 头部广告二 */
+#param-box>.da, /* 摘要右侧广告 */
+#param-box>.xiazainav, /* 摘要下方短条广告 */
+#param~div:not([class]), /* 摘要下方长条广告 */
+#sidebar>dd:not([id]), /* 软件介绍右侧广告 */
+.address-wrap>*:not(.ul_Address), /* 各种假地址 */
+.da-download, /* 下载右侧广告 */
+.down4, /* 评论上方广告 */
+empty {
+  display: none!important;
+}
