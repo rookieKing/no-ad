@@ -25,5 +25,5 @@ empty {
 
 /* 评论直接显示 */
 .comment-list-box {
-  max-height: auto!important;
+  max-height: inherit!important;
 }
