@@ -2,6 +2,10 @@
   "name": "no-ad",
   "content_scripts": [
     {
+      "matches": ["*://juejin.im/*"],
+      "css": ["juejin.im/entry.css"]
+    },
+    {
       "matches": ["*://www.jb51.net/softs/*"],
       "css": ["jb51.net/www.softs.css"]
     },

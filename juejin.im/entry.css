@@ -1,0 +1,4 @@
+.extension, /* 下方超大页脚 */
+empty {
+  display: none!important;
+}
