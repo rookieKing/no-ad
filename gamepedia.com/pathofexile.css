@@ -1,0 +1,5 @@
+body #content div#atflb,
+body #content div#btflb,
+empty {
+  display: none!important;
+}

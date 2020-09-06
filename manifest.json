@@ -2,6 +2,18 @@
   "name": "no-ad",
   "content_scripts": [
     {
+      "matches": ["*://*.gamepedia.com/*"],
+      "css": ["gamepedia.com/pathofexile.css"]
+    },
+    {
+      "matches": ["*://poedb.tw/*"],
+      "css": ["poedb.tw/main.css"]
+    },
+    {
+      "matches": ["*://poe.ninja/*"],
+      "css": ["poe.ninja/main.css"]
+    },
+    {
       "matches": ["*://juejin.im/*"],
       "css": ["juejin.im/entry.css"]
     },

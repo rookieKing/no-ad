@@ -1,0 +1,10 @@
+#ad-top,
+#ad-left,
+#ad-right,
+#video-bottom,
+#leaderboard-top,
+#skyscraper-left,
+#skyscraper-right,
+empty {
+  display: none!important;
+}
