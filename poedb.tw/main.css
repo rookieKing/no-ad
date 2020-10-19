@@ -1,4 +1,11 @@
 .adsbygoogle,
+.page-content > div:first-child,
 empty {
   display: none!important;
+}
+body > * {
+  display: none;
+}
+body div.page {
+  display: block;
 }
