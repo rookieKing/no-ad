@@ -1,3 +1,4 @@
+#topbanner970,
 .adsbygoogle,
 .page-content > div:first-child,
 empty {
@@ -7,5 +8,8 @@ body > * {
   display: none;
 }
 body div.page {
+  display: block;
+}
+body > div[data-tippy-root] {
   display: block;
 }
