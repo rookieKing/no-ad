@@ -10,6 +10,7 @@ main>div[id], /* 回帖上的广告 */
 .recommend-fixed-box>div[id], /* 右侧推荐文章内插入的广告 */
 #adContent, /* 右下角 vip 免广告按钮 */
 .box-box-default, .box-box-large, /* category 页面右下角浮动的广告 */
+.adsbygoogle, /* google 广告位 */
 empty {
   display: none!important;
 }
@@ -27,4 +28,10 @@ empty {
 /* 评论直接显示 */
 .comment-list-box {
   max-height: inherit!important;
+}
+
+/* 允许不登录复制代码 */
+#content_views pre,
+#content_views pre code {
+  user-select: unset!important;
 }
