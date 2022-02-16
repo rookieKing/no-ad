@@ -2,6 +2,10 @@
   "name": "no-ad",
   "content_scripts": [
     {
+      "matches": ["*://codesandbox.io/*"],
+      "css": ["codesandbox.io/main.css"]
+    },
+    {
       "matches": ["*://*.gamepedia.com/*"],
       "css": ["gamepedia.com/pathofexile.css"]
     },
