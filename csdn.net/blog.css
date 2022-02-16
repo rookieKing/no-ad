@@ -1,4 +1,5 @@
 div#commentPage~.opt-box, /* 登录查看评论 */
+.passport-login-container, /* 登录窗口新包裹 */
 #passportbox, /* 弹出的登录窗口 */
 .login-mark, /* 弹出的登录窗口背景 */
 .recommend-ad-box, /* 下方关联文章内插入的广告 */
