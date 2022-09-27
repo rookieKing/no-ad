@@ -11,4 +11,6 @@ window.addEventListener('load', () => {
       btn.setAttribute('data-title', '复制');
     });
   });
+  // 自动展开代码
+  document.querySelectorAll('.look-more-preCode').forEach(el => el.click())
 });
