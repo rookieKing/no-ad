@@ -1,4 +1,13 @@
 console.log('--- blog');
+
+const el = document.createElement('script');
+el.src = chrome.runtime.getURL('csdn.net/inject.js');
+el.onload = function () {
+  // 执行后移除自身
+  this.remove();
+};
+document.body.appendChild(el);
+
 window.addEventListener('load', () => {
   // 未登录时 直接复制代码
   document.querySelectorAll('.hljs-button.signin').forEach(btn => {

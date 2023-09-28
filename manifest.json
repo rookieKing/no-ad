@@ -52,7 +52,13 @@
       "css": ["csdn.net/blog.css"]
     }
   ],
+  "web_accessible_resources": [
+    {
+      "matches": ["*://blog.csdn.net/*"],
+      "resources": ["csdn.net/inject.js"]
+    }
+  ],
   "version": "1.0",
   "description": "no-ad!",
-  "manifest_version": 2
+  "manifest_version": 3
 }
