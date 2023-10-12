@@ -7,6 +7,9 @@ empty {
 body > * {
   display: none;
 }
+body > header {
+  display: block;
+}
 body div.page {
   display: block;
 }
