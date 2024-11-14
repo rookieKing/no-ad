@@ -1,0 +1,5 @@
+.v-modal,
+.el-dialog__wrapper,
+empty {
+  display: none;
+}

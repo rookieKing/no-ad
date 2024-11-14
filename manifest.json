@@ -2,6 +2,10 @@
   "name": "no-ad",
   "content_scripts": [
     {
+      "matches": ["*://uiadmin.net/*"],
+      "css": ["uiadmin.net/main.css"]
+    },
+    {
       "matches": ["*://codesandbox.io/*"],
       "css": ["codesandbox.io/main.css"]
     },
