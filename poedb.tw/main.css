@@ -1,18 +1,4 @@
-#topbanner970,
-.adsbygoogle,
-.page-content > div:first-child,
+iframe,
 empty {
   display: none!important;
-}
-body > * {
-  display: none;
-}
-body > header {
-  display: block;
-}
-body div.page {
-  display: block;
-}
-body > div[data-tippy-root] {
-  display: block;
 }
