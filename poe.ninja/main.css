@@ -5,6 +5,10 @@
 #leaderboard-top,
 #skyscraper-left,
 #skyscraper-right,
+#pw-oop-bottom_rail,
+#pw-oop-left_rail,
+#pw-oop-right_rail,
+.leaderboard-bottom,
 empty {
   display: none!important;
 }
