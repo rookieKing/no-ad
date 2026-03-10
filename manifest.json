@@ -22,6 +22,10 @@
       "css": ["poe.ninja/main.css"]
     },
     {
+      "matches": ["*://*.craftofexile.com/*"],
+      "css": ["craftofexile.com/main.css"]
+    },
+    {
       "matches": ["*://juejin.im/*"],
       "css": ["juejin.im/entry.css"]
     },
